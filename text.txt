@@ -1,0 +1,20 @@
+o Interquartile Range or IQR is used to measure
+  how spread out the data points in a set are from the mean of the data set
+o The higher the IQR, 
+  the more spread out the data points; 
+  in contrast, the smaller the IQR, the more bunched up 
+  the data points are around the mean.
+
+To calculate the IQR there are 4 simple steps. 
+1. Order the data from least to greatest. 
+2. Find the mean.
+3. Calculate the median of both the lower and upper half of the data. 
+4. The IQR is the difference between the upper and lower medians.
+
+o Pandas has a quantile function which does all this for us.
+  Pandas dataframe.quantile() this function returns the data 
+  frame where the index is q, columns of 
+  self (It will take the names of the columns as they are) 
+  and values will be the quantiles.
+
+SmList = sampling mean SmList
